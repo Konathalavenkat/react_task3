@@ -36,7 +36,7 @@ class ColorPicker extends Component{
                     <div style={{backgroundColor:this.props.color15}} onClick={this.changecolor} className='pick' id='color15'></div>
                     <div style={{backgroundColor:this.props.color16}} onClick={this.changecolor} className='pick' id='color16'></div>
                 </div> : <div></div>}
-                <button onClick={this.showoptions}>Pick A Color</button>
+                <button onClick={this.showoptions}>Pick a color</button>
             </div>
         )
     }
